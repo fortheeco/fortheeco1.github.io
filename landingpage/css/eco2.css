@@ -1,0 +1,190 @@
+:root{
+    --ecogreen:rgb(29, 181, 89);
+    --ecoblue:rgb(12, 142, 248);
+    --ecoorange:orangered;
+}
+
+/* section .slider-container .slider-shower .sliding-div .sliding-items */
+
+section .slider-container .slider-shower{
+    width: 270px;
+    overflow: hidden;
+    background-color: linear-gradient(to right, red, blue);
+    /* transform: translateX(130%); */
+}
+section .slider-container .slider-shower .sliding-div{
+    width: 800px;
+    transition: 1s;
+}
+/* section .slider-container .slider-shower .sliding-div .sliding-items p{ */
+    /* width: 324px; */
+/* } */
+section .slider-container .slider-shower .sliding-div .sliding-items{
+    width: 300px !important;
+    text-align: center;
+    padding: 12px 30px;
+    box-shadow: 4px 4px 6px linear-gradient( right, red, blue);
+}
+section .hero-btn{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: 1px solid var(--ecogreen);;
+    cursor: pointer;
+    margin: 9% 5% 13% 0%;
+}
+.active{
+    width: 40px;
+    height: 20px;
+    background-color: var(--ecogreen);
+}
+/* section img{
+    transform: translateX(250%);
+} */
+section div .environ{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+section div  .environ li{
+    margin: auto 5%;
+    color: var(--ecogreen);
+    font-size: 1.1rem;
+}
+section div  .environ span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--ecoblue);
+}
+section .register{
+    text-align: center;
+    line-height: 5rem;
+    font-weight: 500;
+}
+section .drop-main{
+    justify-content: center;
+    /* margin-top: 3.0em; */
+
+}
+section .drop-main p{
+    color: rgb(83, 81, 81);
+    /* margin-right: 3em; */
+    position: relative;
+    border-radius: 10px;
+    padding:6px 12px 6px 12px ;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}
+section .drop-main p:hover{
+    
+    transition: background-color 1s, color 0.3s ;
+    color: white;
+    cursor: pointer;
+    
+}
+section .drop-main p:nth-child(1):hover, section .drop-down ul{
+    background-color: var(--ecoblue); 
+}
+section .drop-main p:nth-child(2):hover, section .drop-down2 ul{
+    background-color: var(--ecoorange);
+}
+section .drop-down ul, section .drop-down2 ul{
+    border-radius: 16px;
+    padding: 20px 30px;
+    padding-top: 20px;
+    /* position: relative; */
+    top: -25px;
+    transform: translateX(100px);
+    /* margin-left: 20%; */
+}
+
+section .drop-down ul li, section .drop-down2 ul li {
+    margin-top: 12px;
+    list-style: none;
+}
+section .drop-down ul li label, section .drop-down2 ul li label{
+    display: block;
+    font-size: 14px;
+}
+section .drop-down ul li input, section .drop-down2 ul li input{
+    border-radius: 5px;
+    width: 90%;
+    height: 22px;
+    box-shadow: none;
+    border: none;
+}
+section .drop-down ul .submit, section .drop-down2 ul .submit{
+    transform: translateX(100%);
+    width: 100px;
+    background-color: var(--ecogreen);
+    color: white;
+}
+.submit{
+    border-radius: 15px;
+    padding: 5px;
+}
+section .news{
+    color: var(--ecogreen);
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2.0em;
+}
+
+.displayno{
+    display: none;
+}
+.displayyes{
+    display: block;
+}
+
+.environ{
+    margin-top: 50px;
+}
+@media screen and (min-width: 567px) {
+
+}
+@media screen and (min-width: 1024px) {
+    section div .environ{
+        margin-left: 30px;
+    }
+    section div  .environ li{
+        font-size: 2.0rem;
+    }
+    section .register{
+        line-height: 15rem;
+        font-size: 2rem;
+    }
+    section .drop-main p{
+        font-size: 1.8rem;
+        width: auto;
+    
+    }
+    section .drop-down ul, section .drop-down2 ul{
+        width: 40vw;
+        transform: translateX(400px);       
+    }
+    section .drop-down ul li label, section .drop-down2 ul li label{
+        display: block;
+        font-size: 20px;
+    }
+    section .drop-down ul li input, section .drop-down2 ul li input{
+        font-size: 20px;
+    }
+    section .drop-down ul .submit, section .drop-down2 ul .submit{
+        transform: translateX(200%);
+    }
+    input[type="submit" i]{
+        font-size: 20px;
+        padding: 200px auto;
+    }
+    section .news{
+        font-size: 2.0rem;
+    }
+
+}

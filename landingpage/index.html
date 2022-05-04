@@ -29,6 +29,7 @@
             max-width: 300px;
             padding: 10px;
             background-color: white;
+          
           }
           
           /* Full-width input fields */
@@ -39,6 +40,10 @@
             border: none;
             background: #f1f1f1;
           }
+          .form-container h1, label{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+          }
           
           /* When the inputs get focus, do something */
           .form-container input[type=text]:focus, input[type=number]:focus, .form-container input[type=password]:focus {
@@ -48,7 +53,7 @@
           
           /* Set a style for the submit/login button */
           .form-container .btn {
-            background-color: #04AA6D;
+            background-color: #1DB559;
             color: white;
             padding: 16px 20px;
             border: none;
@@ -69,38 +74,34 @@
           }
           </style>
 </head>
-<body>
-   
+<body> 
       
+    <div class="form-popup" id="myForm">
+    <form id="money-form" action="/" class="form-container">
+        <h1>Assist ECO</h1>
     
+        <label for="email"><b>Email:</b></label>
+        <input id="email" type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="name"><b>Name:</b></label>
+        <input id="name" type="text" placeholder="Enter company/individual Name" name="name" required>
+        <label for="name"><b>Amount:</b></label>
+        <input id="amount" type="number" min="0" placeholder="Enter Amount" name="name" required>
+    
+        <button  type="submit" onclick="makePayment()" class="btn">Donate</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+    </div>
       
-      
-      <div class="form-popup" id="myForm">
-        <form id="money-form" action="/" class="form-container">
-          <h1>Assist ECO</h1>
-      
-          <label for="email"><b>Email</b></label>
-          <input id="email" type="text" placeholder="Enter Email" name="email" required>
-      
-          <label for="name"><b>Name</b></label>
-          <input id="name" type="text" placeholder="Enter company/individual Name" name="name" required>
-          <label for="name"><b>Amount</b></label>
-          <input id="amount" type="number" min="0" placeholder="Enter Amount" name="name" required>
-      
-          <button  type="submit" onclick="makePayment()" class="btn">Donate</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-      </div>
-      
-      <script>
-      function openForm() {
-        document.getElementById("myForm").style.display = "block";
-      }
-      
-      function closeForm() {
-        document.getElementById("myForm").style.display = "none";
-      }
-      </script>
+    <script>
+    function openForm() {
+    document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+    }
+    </script>
     <nav class="navbar">
 
         <!--NAVBAR LOGO-->
@@ -175,7 +176,7 @@
 
                 <div class="operation-list last-child">
                     <img src="images/idea.png" alt="vector image for contribution">
-                    <p>Vote a solution / contibute ideas</p>
+                    <p>Vote a solution / contribute ideas</p>
                 </div>
             </div>
         </section>
@@ -231,7 +232,7 @@
                 </main>
 
                 <main class="wrapper">
-                    <p><span>Building trust</span> accross people and places</p>
+                    <p><span>Building trust</span> across people and places</p>
                 </main>
 
                 <main class="wrapper">
@@ -250,8 +251,8 @@
 				<div class="carousel-container item">
 						<main>
                             <img src="images/mission.png" alt="icon for mission">
-							<h4>Whe are ECO</h4>
-							<p>At ECO we belief that good ideas and skills should match to a locations opportuinity for growth, development and sustainabilty of human capacity, resources and supply value chain.</p>
+							<h4>We are ECO</h4>
+							<p>At ECO we belief that good ideas and skills should match to a locations opportunity for growth, development and sustainability of human capacity, resources and supply value chain.</p>
 						</main>
 					</a>
 				</div>
@@ -437,11 +438,11 @@
             <h2>See how we have been keeping the world ECO</h2>
 
             <div id="owl-demo" class="owl-carousel owl-theme">
-                <div class="item"><img src="images/picture-speak1.jpg"></div>
-                <div class="item"><img src="images/picture-speak2.jpg"></div>
-                <div class="item"><img src="images/picture-speak3.jpg"></div>
-                <div class="item"><img src="images/picture-speak4.jpg"></div>
-                <div class="item"><img src="images/picture-speak5.jpg"></div>
+                <div class="item"><img src="images/pic1.png"></div>
+                <div class="item"><img src="images/pic2.png"></div>
+                <div class="item"><img src="images/pic6.png"></div>
+                <div class="item"><img src="images/pic4.png.png"></div>
+                <div class="item"><img src="images/pic5.png"></div>
               </div>
         </section>
 

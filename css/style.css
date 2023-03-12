@@ -289,7 +289,7 @@ input::placeholder {
 }
 
 .details-img.t4ga {
-	width: 6rem !important;
+	width: 5rem !important;
 }
 
 .details-txt {
@@ -411,6 +411,10 @@ problem--card-container {
 		margin-inline: auto;
 	}
 
+	.problem--card, .problem--card-description  {
+		width: 100%;
+	}
+
 	.project--description {
 		border-radius: 0.5rem;
 		background-color: #f5f4f4;
@@ -427,11 +431,19 @@ problem--card-container {
 		text-align: center;
 	}
 
+	.details-txt {
+		width: 100%;
+	}
+
 	.hero-section .img-description {
 		width: 100%;
 		margin-inline: auto;
 		text-align: center;
 		text-align: -moz-center;
+	}
+
+	.img-item {
+		height: 25rem;
 	}
 
 	.footer {

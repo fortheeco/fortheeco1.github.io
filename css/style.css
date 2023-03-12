@@ -6,6 +6,7 @@
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
+        width: 100%;
 }
 
 /* ============ RESET ============= */
@@ -22,6 +23,7 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	overflow-x: hidden !important;
 	background-color: #f5f4f4;
+        width: 100%;
 }
 
 /* ============= UTILITY =========== */
@@ -68,10 +70,6 @@ body {
 	min-height: 100svh;
 	padding: 2rem;
 	position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
 }
 
 .main-wrapper {
@@ -404,7 +402,7 @@ problem--card-container {
 
 
 	.carousel--container {
-		max-width: 90%
+		max-width: 100%;
 	} 
 
 	.hero-title {
@@ -416,7 +414,7 @@ problem--card-container {
 	.project--description {
 		border-radius: 0.5rem;
 		background-color: #f5f4f4;
-		width: 95%;
+		width: 100%;
 		margin-inline: auto;
 		padding: 2rem;
 		box-shadow: 0px -2px 19px -13px rgba(0, 0, 0, 0.75);

@@ -68,6 +68,12 @@ body {
 	width: 100%;
 	min-height: 100vh;
 	min-height: 100svh;
+	max-width: 1024px;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	padding: 2rem;
 	position: relative;
 }
@@ -118,6 +124,7 @@ body {
 	height: 4rem;
 	display: inline-block;
 	margin: 2rem 0 0 2rem;
+	align-self: flex-start;
 }
 
 .hero-info {
@@ -134,6 +141,7 @@ body {
 /* =========== FORM ============ */
 #form {
 	width: 100%;
+	display: inline-block;
 }
 .form--label {
 	display: flex;
@@ -447,7 +455,7 @@ problem--card-container {
 	}
 
 	.details-img.download-icon {
-		width: 25% !important;
+		width: 35% !important;
 	}
 
 	.img-item.img-app {

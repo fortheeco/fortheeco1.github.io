@@ -446,6 +446,14 @@ problem--card-container {
 		height: 25rem;
 	}
 
+	.details-img.download-icon {
+		width: 40% !important;
+	}
+
+	.img-item.img-app {
+		height: 25rem;
+	}
+
 	.footer {
 		position: relative;
 		margin: 2rem;

@@ -398,6 +398,10 @@ problem--card-container {
 		margin-inline: auto;
 	}
 
+	.logo {
+		margin-bottom: 6rem;
+	}
+
 	.heading {
 		margin-inline: auto;
 		text-transform: capitalize;

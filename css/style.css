@@ -70,10 +70,10 @@ body {
 	min-height: 100svh;
 	max-width: 1024px;
 	margin-inline: auto;
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; */
 	padding: 2rem;
 	position: relative;
 }
@@ -252,8 +252,9 @@ input::placeholder {
 	background: url('../images/hero-background.png') no-repeat, center;
 	background-size: 70%;
 	width: 100%;
-	position: absolute;
-	top: 2rem;
+	margin-inline: auto;
+	/*position: absolute;
+	top: 2rem; */
 }
 .text-description {
 	width: 60%;
@@ -399,6 +400,10 @@ problem--card-container {
 	.heading {
 		margin-inline: auto;
 		text-transform: capitalize;
+	}
+
+	.form--label {
+		margin-inline: auto;
 	}
 
 	.hero-section {

@@ -68,7 +68,7 @@ body {
 	width: 100%;
 	min-height: 100vh;
 	min-height: 100svh;
-	max-width: 120rem;
+	max-width: 1100px;;
 	margin-inline: auto;
 	/*display: flex;
 	flex-direction: column;
@@ -123,7 +123,8 @@ body {
 .logo {
 	height: 4rem;
 	display: inline-block;
-	margin: 4rem 0 0 2rem;
+	margin: 2rem;
+	margin-bottom: 4rem;
 	align-self: flex-start;
 }
 
